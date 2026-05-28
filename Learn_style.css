@@ -1,6 +1,3 @@
-/* =========================
-   IMPROVED LEARNING UX FLOW
-========================= */
 
 :root{
     --primary:#0d47a1;
@@ -20,7 +17,7 @@ body{
 }
 
 /* =========================
-   TOP HEADER (UNCHANGED FEEL)
+   TOP HEADER
 ========================= */
 
 .site-header{
@@ -30,7 +27,7 @@ body{
 }
 
 /* =========================
-   TOPIC SELECTION (IMPORTANT AREA)
+   TOPIC SELECTION
 ========================= */
 
 .topic-bar{
@@ -62,7 +59,7 @@ body{
 }
 
 /* =========================
-   HERO SECTION (SIMPLIFIED)
+   HERO SECTION
 ========================= */
 
 .panel-hero td{
@@ -84,28 +81,28 @@ body{
 }
 
 /* =========================
-   MAIN LEARNING LAYOUT (IMPORTANT FIX)
+   MAIN LEARNING LAYOUT
 ========================= */
 
 .main-grid > table{
     width:100%;
 }
 
-/* LEFT = LESSONS (FOCUS AREA) */
+/* LEFT = LESSONS  */
 .lessons-col{
     width:50%;
     padding:40px !important;
     background:#ffffff;
 }
 
-/* RIGHT = RESOURCES (SUPPORT AREA) */
+/* RIGHT = RESOURCES  */
 .resources-col{
     width:30%;
     padding:40px !important;
     background:#f8fbff;
 }
 
-/* FACTS = LESS IMPORTANT (NARROWER) */
+/* FACTS */
 .facts-col{
     width:20%;
     padding:30px !important;
@@ -126,7 +123,7 @@ body{
 }
 
 /* =========================
-   LESSON CARDS (PRIMARY FOCUS)
+   LESSON CARDS
 ========================= */
 
 .lesson-card{
@@ -154,7 +151,7 @@ body{
 }
 
 /* =========================
-   RESOURCES (CLEAR SUPPORT STYLE)
+   RESOURCES
 ========================= */
 
 .resource-item{
@@ -175,7 +172,7 @@ body{
 }
 
 /* =========================
-   FACTS (MINOR SUPPORT)
+   FACTS
 ========================= */
 
 .fact-card{
@@ -187,7 +184,7 @@ body{
 }
 
 /* =========================
-   RESPONSIVE (IMPORTANT)
+   RESPONSIVE
 ========================= */
 
 @media(max-width:900px){
