@@ -16,9 +16,7 @@ body{
     color:var(--text);
 }
 
-/* =========================
-   TOP HEADER
-========================= */
+/*TOP HEADER */
 
 .site-header{
     background:linear-gradient(135deg,#1565c0,#42a5f5);
@@ -26,9 +24,7 @@ body{
     padding:18px 40px;
 }
 
-/* =========================
-   TOPIC SELECTION
-========================= */
+/* TOPIC SELECTION */
 
 .topic-bar{
     background:var(--primary);
@@ -58,9 +54,7 @@ body{
     color:white;
 }
 
-/* =========================
-   HERO SECTION
-========================= */
+/* HERO SECTION*/
 
 .panel-hero td{
     padding:0;
@@ -80,9 +74,7 @@ body{
     opacity:0.9;
 }
 
-/* =========================
-   MAIN LEARNING LAYOUT
-========================= */
+/* MAIN LEARNING LAYOUT */
 
 .main-grid > table{
     width:100%;
@@ -109,9 +101,7 @@ body{
     background:#f1f6ff;
 }
 
-/* =========================
-   COLUMN TITLES
-========================= */
+/* COLUMN TITLES*/
 
 .col-title{
     font-size:1.1rem;
@@ -122,9 +112,7 @@ body{
     padding-bottom:6px;
 }
 
-/* =========================
-   LESSON CARDS
-========================= */
+/*LESSON CARDS*/
 
 .lesson-card{
     background:var(--card);
@@ -150,9 +138,7 @@ body{
     font-size:0.95rem;
 }
 
-/* =========================
-   RESOURCES
-========================= */
+/* RESOURCES*/
 
 .resource-item{
     background:white;
@@ -171,9 +157,7 @@ body{
     border-radius:8px;
 }
 
-/* =========================
-   FACTS
-========================= */
+/* FACTS */
 
 .fact-card{
     background:#eef5ff;
@@ -183,9 +167,7 @@ body{
     border-radius:6px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE */
 
 @media(max-width:900px){
 
