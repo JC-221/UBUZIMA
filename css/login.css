@@ -1,0 +1,58 @@
+/* ================= AUTH PAGE ================= */
+
+.auth-body {
+    background: linear-gradient(to right, #e8f5e9, #e3f2fd);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.auth-container {
+    text-align: center;
+}
+
+.auth-box {
+    background: white;
+    padding: 30px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+.tabs button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    background: #2e7d32;
+    color: white;
+    border-radius: 5px;
+}
+
+.auth-box input {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-box button {
+    width: 100%;
+    padding: 10px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.auth-box button:hover {
+    background: #1b5e20;
+}
+
+#loginError, #registerMsg {
+    font-size: 14px;
+    margin-top: 10px;
+}
