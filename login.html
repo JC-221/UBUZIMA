@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UBUZIMA HUB - Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body class="auth-body">
+
+<div class="auth-container">
+
+    <h1>UBUZIMA HUB</h1>
+    <p>Empowering Youth Through Knowledge</p>
+
+    <div class="auth-box">
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button onclick="showLogin()">Login</button>
+            <button onclick="showRegister()">Create Account</button>
+        </div>
+
+        <!-- LOGIN FORM -->
+        <form id="loginForm">
+            <h2>Login</h2>
+
+            <input type="text" id="loginName" placeholder="Username" required>
+            <input type="password" id="loginPassword" placeholder="Password" required>
+
+            <button type="submit">Login</button>
+
+            <p id="loginError"></p>
+        </form>
+
+        <!-- REGISTER FORM -->
+        <form id="registerForm" style="display:none;">
+            <h2>Create Account</h2>
+
+            <input type="text" id="regName" placeholder="Username" required>
+            <input type="password" id="regPassword" placeholder="Password" required>
+
+            <!--CONFIRM PASSWORD-->
+            <input type="password" id="regConfirmPassword" placeholder="Confirm Password" required>
+
+            <input type="text" id="regDistrict" placeholder="Type your district" required>
+
+            <input type="text" id="regSector" placeholder="type your sector" required>
+
+            <input type="text" id="regEmail" placeholder="Type your email" required>
+
+            <input type="number" id="regAge" placeholder="Enter your age" required">
+
+            <select id="gender" name="gender">
+                <option value="">select gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+
+            <select id="disability" name="Disability">
+                <option value="">Disability option</option>
+                <option value="None">None</option>
+                <option value="Visual support">Visual Disability</option>
+                <option value="Hearing support">Hearing Disability</option>
+                <option value="Other">Other</option>
+            </select>
+
+
+            <button type="submit">Register</button>
+
+            <p id="registerMsg"></p>
+        </form>
+
+    </div>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
