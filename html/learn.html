@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn - UBUZIMA HUB</title>
+
+    <link rel="stylesheet" href="../CSS/learn.css">
+</head>
+
+<body>
+
+
+<!-- ================= HEADER ================= -->
+<header class="uh-header">
+    <div class="uh-logo">
+        <h1>UBUZIMA HUB</h1>
+        <p>Empowering youth through knowledge</p>
+    </div>
+</header>
+
+<!-- ================= NAVIGATION ================= -->
+<nav class="uh-nav">
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="learn.html" class="active">Learn</a></li>
+        <li><a href="#">Dashboard</a></li>
+        <li><a href="#">Challenges</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="uh-hero">
+    <div class="uh-hero-text">
+        <h2>Start Your Learning Journey</h2>
+        <p>
+            Explore life-changing knowledge about health, wellbeing,
+            and personal development. Learn. Practice. Grow.
+        </p>
+
+        <a href="#topics" class="uh-btn">Start Learning</a>
+    </div>
+
+    <div class="uh-hero-img">
+        <img src="../Images/studentss.jpg"
+            alt="Students learning together">
+    </div>
+</section>
+
+<!-- ================= TOPICS ================= -->
+<section id="topics" class="uh-topics">
+    <h2>Choose a Topic</h2>
+
+    <div class="uh-topic-grid">
+
+        <div class="uh-topic-card">
+            <img src="../Images/HIVA.jpg">
+            <h3>HIV/AIDS Awareness</h3>
+            <p>Learn prevention, treatment, and facts about HIV.</p>
+        </div>
+
+        <div class="uh-topic-card">
+            <img src="../Images/mentalh.jpg">
+            <h3>Mental Health</h3>
+            <p>Understand emotions, stress, and mental wellbeing.</p>
+        </div>
+
+        <div class="uh-topic-card">
+            <img src="../Images/STDs.jpg">
+            <h3>Sexual & Reproductive Health</h3>
+            <p>Learn about body health and responsible decisions.</p>
+        </div>
+
+        <div class="uh-topic-card">
+            <img src="../Images/menstrual_image.jpg">
+            <h3>Menstrual Health</h3>
+            <p>Understand cycles, hygiene, and body changes.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= HIV SECTION ================= -->
+<section class="uh-section">
+
+    <h2 class="uh-section-title">HIV/AIDS Awareness</h2>
+
+    <!-- HERO -->
+    <div class="uh-topic-hero">
+
+        <div class="uh-topic-text">
+            <h3>Know HIV. Protect Yourself. Live Fully.</h3>
+
+            <p>
+                HIV (Human Immunodeficiency Virus) affects the immune system.
+                With knowledge, testing, and treatment, people can live long healthy lives.
+                UBUZIMA HUB helps you understand facts, prevention, and support.
+            </p>
+
+            <ul>
+                <li>✔ Learn how HIV is transmitted</li>
+                <li>✔ Understand prevention methods</li>
+                <li>✔ Break stigma and discrimination</li>
+            </ul>
+
+            <a href="#" class="uh-btn">Take HIV Quiz</a>
+        </div>
+
+        <div class="uh-topic-img">
+            <img src="../Images/HIVA.jpg"
+                alt="HIV Awareness">
+        </div>
+
+    </div>
+
+    <!-- KEY FACTS -->
+    <div class="uh-facts">
+
+        <h3>Key Facts</h3>
+
+        <div class="uh-fact-grid">
+
+            <div class="uh-fact-card">
+                <h4>What is HIV?</h4>
+                <p>HIV attacks the immune system and weakens the body's defense.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Transmission</h4>
+                <p>Spread through unprotected sex, blood, or sharing needles.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Not Spread By</h4>
+                <p>Hugging, sharing food, mosquito bites, or touching.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Treatment</h4>
+                <p>ART helps people live long healthy lives (U=U concept).</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LESSONS -->
+    <div class="uh-lessons">
+
+        <h3>Lessons</h3>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Understanding HIV & AIDS</button>
+            <div class="uh-lesson-content">
+                HIV weakens immune cells (CD4). Without treatment, it leads to AIDS.
+                With ART medication, people can live normal lives.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Prevention Methods</button>
+            <div class="uh-lesson-content">
+                Use condoms, test regularly, avoid sharing needles, and consider PrEP if at risk.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Living with HIV</button>
+            <div class="uh-lesson-content">
+                People on treatment can achieve undetectable viral load and cannot transmit HIV.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- JAVASCRIPT -->
+<script>
+function toggleLesson(btn){
+    let content = btn.nextElementSibling;
+    content.classList.toggle("show");
+}
+</script>
+
+<!-- ================= MENTAL HEALTH SECTION ================= -->
+<section class="uh-section">
+
+    <h2 class="uh-section-title">Mental Health</h2>
+
+    <!-- HERO -->
+    <div class="uh-topic-hero">
+
+        <div class="uh-topic-text">
+            <h3>Your Mind Matters Too</h3>
+
+            <p>
+                Mental health affects how we think, feel, and act.
+                UBUZIMA HUB helps you understand stress, emotions,
+                depression, and how to stay mentally strong.
+            </p>
+
+            <ul>
+                <li>✔ Understand emotions and stress</li>
+                <li>✔ Learn how to manage anxiety</li>
+                <li>✔ Support yourself and others</li>
+            </ul>
+
+            <a href="#" class="uh-btn">Take Mental Health Quiz</a>
+        </div>
+
+        <div class="uh-topic-img">
+            <img src="../Images/mentalh.jpg"
+                alt="Mental Health">
+        </div>
+
+    </div>
+
+    <!-- KEY FACTS -->
+    <div class="uh-facts">
+
+        <h3>Key Facts</h3>
+
+        <div class="uh-fact-grid">
+
+            <div class="uh-fact-card">
+                <h4>What is Mental Health?</h4>
+                <p>It is emotional, psychological, and social well-being.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Common Issues</h4>
+                <p>Stress, anxiety, depression, and trauma.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Warning Signs</h4>
+                <p>Sadness, isolation, fatigue, or loss of interest.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Support is Important</h4>
+                <p>Talking to someone is a sign of strength, not weakness.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LESSONS -->
+    <div class="uh-lessons">
+
+        <h3>Lessons</h3>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Understanding Mental Health</button>
+            <div class="uh-lesson-content">
+                Mental health is about how we think, feel, and behave.
+                Good mental health helps us handle stress and make decisions.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Stress & Anxiety</button>
+            <div class="uh-lesson-content">
+                Stress is a reaction to pressure. Anxiety is long-term worry.
+                Breathing exercises and talking help reduce it.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Depression Awareness</button>
+            <div class="uh-lesson-content">
+                Depression is not weakness. It is a medical condition that can be treated.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= MENSTRUAL HEALTH SECTION ================= -->
+<section class="uh-section">
+
+    <h2 class="uh-section-title">Menstrual Health</h2>
+
+    <!-- HERO -->
+    <div class="uh-topic-hero">
+
+        <div class="uh-topic-text">
+            <h3>Understand Your Body. Stay Confident.</h3>
+
+            <p>
+                Menstrual health is a natural part of life.
+                UBUZIMA HUB helps you understand your cycle,
+                hygiene, and how to manage periods with confidence.
+            </p>
+
+            <ul>
+                <li>✔ Learn about menstrual cycle</li>
+                <li>✔ Understand hygiene and care</li>
+                <li>✔ Break stigma and myths</li>
+            </ul>
+
+            <a href="#" class="uh-btn">Take Menstrual Quiz</a>
+        </div>
+
+        <div class="uh-topic-img">
+            <img src="../Images/menstrual_image.jpg"
+                alt="Menstrual Health">
+        </div>
+
+    </div>
+
+    <!-- KEY FACTS -->
+    <div class="uh-facts">
+
+        <h3>Key Facts</h3>
+
+        <div class="uh-fact-grid">
+
+            <div class="uh-fact-card">
+                <h4>What is Menstruation?</h4>
+                <p>It is the monthly shedding of the uterine lining.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Cycle Length</h4>
+                <p>Usually between 21 to 35 days.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Duration</h4>
+                <p>Periods usually last 3 to 7 days.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Hygiene is Important</h4>
+                <p>Proper hygiene prevents infections and discomfort.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LESSONS -->
+    <div class="uh-lessons">
+
+        <h3>Lessons</h3>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">The Menstrual Cycle</button>
+            <div class="uh-lesson-content">
+                The menstrual cycle is controlled by hormones and prepares the body for pregnancy each month.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Menstrual Hygiene</button>
+            <div class="uh-lesson-content">
+                Use clean materials, change regularly, and maintain hygiene to avoid infections.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Breaking Myths</button>
+            <div class="uh-lesson-content">
+                Periods are natural and should never be a source of shame or discrimination.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= SEXUAL & REPRODUCTIVE HEALTH SECTION ================= -->
+<section class="uh-section">
+
+    <h2 class="uh-section-title">Sexual & Reproductive Health</h2>
+
+    <!-- HERO -->
+    <div class="uh-topic-hero">
+
+        <div class="uh-topic-text">
+            <h3>Know the Facts. Protect Your Future.</h3>
+
+            <p>
+                Sexual and reproductive health helps you understand your body,
+                relationships, and how to stay safe and healthy.
+                UBUZIMA HUB provides clear and respectful education.
+            </p>
+
+            <ul>
+                <li>✔ Learn about STIs/STDs</li>
+                <li>✔ Understand safe relationships</li>
+                <li>✔ Know prevention and protection</li>
+            </ul>
+
+            <a href="#" class="uh-btn">Take SRH Quiz</a>
+        </div>
+
+        <div class="uh-topic-img">
+            <img src="../Images/STDs.jpg"
+                alt="Sexual Health Education">
+        </div>
+
+    </div>
+
+    <!-- KEY FACTS -->
+    <div class="uh-facts">
+
+        <h3>Key Facts</h3>
+
+        <div class="uh-fact-grid">
+
+            <div class="uh-fact-card">
+                <h4>What are STIs?</h4>
+                <p>Infections passed through sexual contact. Many are treatable.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Prevention</h4>
+                <p>Use protection, test regularly, and stay informed.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Symptoms</h4>
+                <p>Some STIs show no symptoms — testing is important.</p>
+            </div>
+
+            <div class="uh-fact-card">
+                <h4>Safety</h4>
+                <p>Healthy relationships are based on respect and consent.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- LESSONS -->
+    <div class="uh-lessons">
+
+        <h3>Lessons</h3>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Understanding STIs</button>
+            <div class="uh-lesson-content">
+                STIs are infections caused by bacteria, viruses, or parasites.
+                Some are curable, others can be managed with treatment.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Prevention Methods</button>
+            <div class="uh-lesson-content">
+                Use protection, avoid risky behavior, and get regular health checks.
+            </div>
+
+        </div>
+
+        <div class="uh-lesson">
+
+            <button onclick="toggleLesson(this)">Healthy Relationships</button>
+            <div class="uh-lesson-content">
+                Respect, consent, communication, and trust are key to healthy relationships.
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="uh-section">
+
+    <h2 class="uh-section-title">Extra Learning Resources</h2>
+
+    <p style="text-align:center;">
+        Learn more from trusted health organizations and videos.
+    </p>
+
+    <div class="uh-topic-grid">
+
+        <div class="uh-topic-card">
+            <h3>WHO Health Guides</h3>
+            <p>Trusted global health information.</p>
+        </div>
+
+        <div class="uh-topic-card">
+            <h3>YouTube Learning</h3>
+            <p>Animated health education videos.</p>
+        </div>
+
+        <div class="uh-topic-card">
+            <h3>Rwanda Health Info</h3>
+            <p>Local health programs and support.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+function toggleLesson(btn){
+    let content = btn.nextElementSibling;
+
+    document.querySelectorAll('.uh-lesson-content').forEach(el => {
+        if (el !== content) el.classList.remove("show");
+    });
+
+    content.classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
