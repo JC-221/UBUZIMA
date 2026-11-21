@@ -1,2 +1,2 @@
 # UBUZIMA
-This is a platform where youth can access true information about diseases and their health in general, also this platform provide different kinds of rewards to the winners through quizzes and challenges.
+UBUZIMA HUB is an ongoing youth health education project focused on providing accessible and interactive information about health through educational content, quizzes, and challenges.
